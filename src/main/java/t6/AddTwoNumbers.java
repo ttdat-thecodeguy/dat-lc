@@ -33,7 +33,6 @@ public class AddTwoNumbers {
         ListNode j = b;
         ListNode result = new ListNode(0);
         ListNode curr = result;
-        boolean isIncr=false;
         int val = 0;
         while (i != null || j != null || val != 0) {
             int jVal = (j != null) ? j.val : 0;

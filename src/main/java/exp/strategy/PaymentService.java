@@ -14,8 +14,15 @@ public class PaymentService {
         }
     }
 
-    public void process(String payment) {
-
+    public void process(String payment, int amount) {
+        PaymentStrategy strategy = paymentStrategies.get(payment);
+        if (strategy == null) {
+            System.out.println("No payment support with: " + payment);
+            return;
+        }
+        System.out.println("[log] payment with: " + payment + " with amount:  " + amount);
+        strategy.pay(10);
+        System.out.println("[log] payment successfully. ");
     }
 
 }

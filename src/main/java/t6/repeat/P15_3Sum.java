@@ -1,4 +1,4 @@
-package t6_repeat;
+package t6.repeat;
 
 import java.util.ArrayList;
 import java.util.Arrays;

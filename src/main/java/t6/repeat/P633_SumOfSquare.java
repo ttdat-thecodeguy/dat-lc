@@ -1,4 +1,4 @@
-package t6_repeat;
+package t6.repeat;
 
 public class P633_SumOfSquare {
     /*

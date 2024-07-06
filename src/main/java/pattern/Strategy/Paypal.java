@@ -1,4 +1,4 @@
-package exp.strategy;
+package pattern.Strategy;
 
 public class Paypal implements PaymentStrategy {
 

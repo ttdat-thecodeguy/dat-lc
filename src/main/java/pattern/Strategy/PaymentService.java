@@ -1,4 +1,4 @@
-package exp.strategy;
+package pattern.Strategy;
 
 import java.util.HashMap;
 import java.util.List;
